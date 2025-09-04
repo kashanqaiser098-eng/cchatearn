@@ -61,6 +61,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom cchatearn colors
+				neon: {
+					cyan: 'hsl(var(--neon-cyan))',
+					purple: 'hsl(var(--neon-purple))',
+					pink: 'hsl(var(--neon-pink))'
+				},
+				space: {
+					dark: 'hsl(var(--space-dark))',
+					medium: 'hsl(var(--space-medium))',
+					light: 'hsl(var(--space-light))'
 				}
 			},
 			borderRadius: {
