@@ -18,6 +18,10 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Custom cchatearn variants
+        gradient: "bg-gradient-primary text-primary-foreground hover:opacity-90 transition-smooth glow-cyan",
+        glass: "glass border-primary/30 text-foreground hover:border-primary/60 hover-glow-cyan",
+        neon: "bg-transparent border border-neon-cyan text-neon-cyan hover:bg-neon-cyan/10 hover-glow-cyan transition-smooth",
       },
       size: {
         default: "h-10 px-4 py-2",
