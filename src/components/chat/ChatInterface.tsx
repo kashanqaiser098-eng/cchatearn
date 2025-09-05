@@ -268,14 +268,9 @@ export default function ChatInterface({
           >
             <Menu className="w-4 h-4" />
           </Button>
-          <div className="flex items-center gap-2">
-            <div className="w-6 h-6 rounded bg-gradient-primary flex items-center justify-center">
-              <Sparkles className="w-4 h-4 text-primary-foreground" />
-            </div>
-            <h1 className="font-semibold bg-gradient-primary bg-clip-text text-transparent">
-              AI Chat
-            </h1>
-          </div>
+          <h1 className="font-semibold bg-gradient-primary bg-clip-text text-transparent">
+            cChat
+          </h1>
         </div>
         
         <div className="flex items-center gap-2">
