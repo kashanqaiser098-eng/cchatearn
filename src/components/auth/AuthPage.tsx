@@ -83,13 +83,12 @@ export default function AuthPage() {
       <div className="w-full max-w-md">
         <Card className="glass-card border-primary/20">
           <CardHeader className="text-center space-y-4">
-            <div className="flex items-center justify-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center">
-                <Sparkles className="w-5 h-5 text-primary-foreground" />
-              </div>
-              <h1 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                cchatearn
-              </h1>
+            <div className="flex items-center justify-center">
+              <img 
+                src="/lovable-uploads/cf1c719a-08c2-4b54-8b30-bc9c7448b746.png" 
+                alt="CChat Logo" 
+                className="h-12 w-auto"
+              />
             </div>
             <div>
               <CardTitle className="text-xl">

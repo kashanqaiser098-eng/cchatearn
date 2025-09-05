@@ -118,13 +118,12 @@ export default function ChatSidebar({
       {/* Header */}
       <div className="p-4 border-b border-primary/20">
         <div className="flex items-center justify-between mb-4">
-          <div className="flex items-center gap-2">
-            <div className="w-6 h-6 rounded bg-gradient-primary flex items-center justify-center">
-              <Sparkles className="w-4 h-4 text-primary-foreground" />
-            </div>
-            <h2 className="font-semibold bg-gradient-primary bg-clip-text text-transparent">
-              cchatearn
-            </h2>
+          <div className="flex items-center">
+            <img 
+              src="/lovable-uploads/cf1c719a-08c2-4b54-8b30-bc9c7448b746.png" 
+              alt="CChat Logo" 
+              className="h-8 w-auto"
+            />
           </div>
           <Button
             onClick={onToggle}
